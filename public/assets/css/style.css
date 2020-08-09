@@ -12,3 +12,33 @@ body {
     font-weight: 400;
     font-size: 18px;
 }
+#entermodal {
+    background-color: whitesmoke;
+    color: salmon;
+    border-style: double;
+    border-color: silver;
+    border-width: 10px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15%;
+}
+.intro {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: salmon;
+    width: 40%;
+    font-weight: 40px;
+    background-color: silver;
+    border-style: ridge;
+}
+#intro {
+    margin-top: 100px;
+}
+#intro2 {
+    margin-top: 20px;
+}
+.highlight {
+    color: whitesmoke;
+}
