@@ -37,6 +37,19 @@ p {
   }
   .row {
     margin-top: 50px;
+    float: left;
+  }
+  #columnA {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #columnC {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   #entermodal {
     background-color: #BC7583;
@@ -75,18 +88,6 @@ p {
     border-color: #D5C6B3;
     border-style: ridge;
     background-color: #747087;
-  }
-  #columnA {
-    width: 30%;
-    float: left;
-  }
-  #columnB {
-    width: 40%;
-    float: left;
-  }
-  #columnC {
-    width: 30%;
-    float: left;
   }
   #footer {
     position: fixed; 
