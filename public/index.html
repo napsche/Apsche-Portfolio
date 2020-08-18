@@ -18,8 +18,8 @@
 
 <body background="../public/assets/images/background.jpg">
 
-    <div class="header">
-      <a href="index.html" class="animate__animated animate__rubberBand" id="logo">Nicole Apsche</a>
+    <div class="header flex-container">
+      <a href="index.html" class="animate__animated animate__rubberBand item" id="logo">Nicole Apsche</a>
 
       <div class="container intro" id="intro">
         Hello, my name is
@@ -37,30 +37,32 @@
       data-whatever="@mdo"><strong>View My Profile!</strong></button>
   </div>
 
-  <div class="header" id="aboutme">
-    <p id="header">About Me</p>
+  <div class="header flex-container" id="aboutme">
+    <p class="item" id="header">About Me</p>
   </div>
 
   <div class="row flex-container">
       <div class="column item" id="columnA">
-        <p>My name is Nicole Apsche, and I live in West Philadelphia. I moved to Philadelphia in 2012 to attend
+        <p class="item">My name is Nicole Apsche, and I live in West Philadelphia. I moved to Philadelphia in 2012 to attend
           Temple Univeristy, where I earned my Bachelor's Degree in Neuroscience in 2016. I love animals, food, running,
           traveling, being outside, and spending time with friends.</p>
   
-        <p>I am an Account Executive for KGTiger, a talent acquisition company. We are based out of Bala Cynwyd, and offer
+        <p class="item">I am an Account Executive for KGTiger, a talent acquisition company. We are based out of Bala Cynwyd, and offer
           a variety of solutions to finding talent. I also bartend Sunday brunch at Copabanana in University City. I was
           excited to begin the Penn LPS Coding Boot Camp to learn something new. I am excited to see where this new path
           takes me! I am a hard worker and am eager to learn!</p>
       </div>
 
-      <div class="column" id="columnB">
-        <img src="./assets/images/me.jpg" class="auth-image portrait" alt="Picture">
+      <div class="column item" id="columnB">
+        <img src="./assets/images/me.jpg" class="auth-image portrait item" alt="Picture">
       </div>
 
       <div class="column flex-container" id="columnC">
-        <img class="item" src="https://img.icons8.com/nolan/100/resume.png"/>
-        <img class="item" src="https://img.icons8.com/nolan/100/squared-menu.png"/>
-        <img class="item" src="https://img.icons8.com/nolan/100/email.png"/>
+        <img class="icon item" src="https://img.icons8.com/nolan/100/resume.png"/>
+        <a href="./assets/html/portfolio.html">
+          <img class="icon item fade" src="https://img.icons8.com/nolan/100/squared-menu.png"/>
+        </a>
+        <img class="icon item" src="https://img.icons8.com/nolan/100/email.png"/>
       </div>
 
   </div>

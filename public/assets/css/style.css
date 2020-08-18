@@ -3,7 +3,7 @@ body {
 }
 p {
     background-color: #BC7583;
-    color: #747087;
+    color: #4A4D6E;
    float: left;
    text-align: center;
    border-style: ridge;
@@ -21,11 +21,25 @@ p {
     margin-top: 20px;
     width: fit-content;
 }
+.fade {
+  opacity: 1;
+}
+.fade:hover {
+  opacity: 0.5;
+}
+.flex-container {
+  display: flex;
+}
 .header {
   margin-top: 20px;
 }
 .highlight {
     color: #D5C6B3;
+}
+.icon {
+  background-color: #BC7583;
+    border-style: ridge;
+    border-color: #D5C6B3;
 }
 .portrait {
     width: 400px;
@@ -41,6 +55,12 @@ p {
     margin-top: 50px;
     float: left;
   }
+  #aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
   #columnA {
     margin-left: 100px;
     width: 30%;
@@ -55,9 +75,6 @@ p {
   #columnC {
     width: 20%;
     margin-left: 20px;
-    background-color: #BC7583;
-    border-style: ridge;
-    border-color: #D5C6B3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,6 +121,10 @@ p {
     border-color: #D5C6B3;
     border-style: ridge;
     background-color: #747087;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
   }
   #footer {
     position: fixed; 
