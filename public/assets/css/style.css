@@ -63,18 +63,18 @@ p {
   }
   #columnA {
     margin-left: 100px;
-    width: 30%;
+    /* width: 30%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  columnB {
+  /* columnB {
     width: 40%;
-  }
+  } */
   #columnC {
-    width: 20%;
-    margin-left: 20px;
+    /* width: 20%;
+    margin-left: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
