@@ -1,9 +1,26 @@
+body {
+  background-image: url(../images/background.jpg);
+  
+}
 .header {
     margin-top: 20px;
   }
   .nav {
     font-family: 'Josefin Slab', serif;
     font-size: 24px;
+  }
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #D5C6B3;
+    text-align: center;
+    background: #BC7583;
+    border-bottom: 0;
   }
   #contactme {
       color: #D5C6B3;
