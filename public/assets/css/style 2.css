@@ -1,0 +1,142 @@
+body {
+    background-image: url(../images/background.jpg);
+}
+p {
+    background-color: #BC7583;
+    color: #4A4D6E;
+   float: left;
+   text-align: center;
+   border-style: ridge;
+   border-color: #D5C6B3;
+}
+.intro {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #BC7583;
+    font-weight: 40px;
+    background-color: #747087; 
+    border-color: #D5C6B3;
+    border-style: ridge;
+    margin-top: 20px;
+    width: fit-content;
+}
+.item {
+  margin: 0 auto; 
+}
+.fade {
+  opacity: 1;
+}
+.fade:hover {
+  opacity: 0.5;
+}
+.flex-container {
+  display: flex;
+}
+.header {
+  margin-top: 20px;
+}
+.highlight {
+    color: #D5C6B3;
+}
+.icon {
+  background-color: #BC7583;
+    border-style: ridge;
+    border-color: #D5C6B3;
+}
+.portrait {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: ridge;
+    border-color: #D5C6B3;
+    border-width: 10px;
+    float: left;
+  }
+  .row {
+    margin-top: 50px;
+    float: left;
+  }
+  #aboutme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  #columnA {
+    margin-left: 100px;
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* columnB {
+    width: 40%;
+  } */
+  #columnC {
+    /* width: 20%;
+    margin-left: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #entermodal {
+    background-color: #BC7583;
+    color: #747087;
+    border-style: double;
+    border-color: #D5C6B3;
+    border-width: 10px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15%;
+    font-size: 32px;
+    text-align: center; 
+    font-family: 'Amatic SC', cursive;
+}
+  #header {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Sacramento', cursive;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: #BC7583;
+    border-style: ridge;
+    font-size: 35px;
+    font-weight: 20px;
+    background-color: #747087;
+    border-color: #D5C6B3;
+    border-width: 5px;
+  }
+  #logo {
+    height: 90px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: 40px;
+    width: fit-content;
+    margin-left: 42%;
+    margin-right: 30%;
+    color: #BC7583;
+    border-color: #D5C6B3;
+    border-style: ridge;
+    background-color: #747087;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+  #footer {
+    position: fixed; 
+    bottom: 0; 
+    text-align: center; 
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
