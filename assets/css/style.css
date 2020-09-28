@@ -2,12 +2,12 @@ body {
     background-image: url(../images/background.jpg);
 }
 p {
-    background-color: #BC7583;
-    color: #4A4D6E;
+  background-color: #EFDCD6;
+  color: #BC7583;
    float: left;
    text-align: center;
    border-style: ridge;
-   border-color: #D5C6B3;
+   border-color: #BC7583;
 }
 .intro {
     font-family: 'Amatic SC', cursive;
@@ -15,8 +15,8 @@ p {
     text-align: center;
     color: #BC7583;
     font-weight: 40px;
-    background-color: #747087; 
-    border-color: #D5C6B3;
+    background-color: #EFDCD6; 
+    border-color: #BC7583;
     border-style: ridge;
     margin-top: 20px;
     width: fit-content;
@@ -34,12 +34,12 @@ p {
   margin-top: 20px;
 }
 .highlight {
-    color: #D5C6B3;
+    color: #E5AC98;
 }
 .icon {
-  background-color: #BC7583;
+  background-color: #EFDCD6;
     border-style: ridge;
-    border-color: #D5C6B3;
+    border-color: #BC7583;
 }
 .portrait {
     width: 400px;
@@ -47,7 +47,7 @@ p {
     margin-left: 20px;
     margin-right: 20px;
     border-style: ridge;
-    border-color: #D5C6B3;
+    border-color: #BC7583;
     border-width: 10px;
     float: left;
   }
@@ -80,9 +80,23 @@ p {
     justify-content: space-between;
     align-items: center;
   }
+  .label {
+    font-family: 'Sacramento', cursive;
+    position: absolute;
+    bottom: 20px;
+    width: fit-content;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #EFDCD6;
+    text-align: center;
+    background: #BC7583;
+    border-bottom: 0;
+  }
   #entermodal {
     background-color: #BC7583;
-    color: #747087;
+    color: #E5AC98;
     border-style: double;
     border-color: #D5C6B3;
     border-width: 10px;
@@ -102,25 +116,19 @@ p {
     margin-left: 40%;
     margin-right: 40%;
     color: #BC7583;
-    border-style: ridge;
     font-size: 35px;
     font-weight: 20px;
-    background-color: #747087;
-    border-color: #D5C6B3;
-    border-width: 5px;
   }
+
   #logo {
     height: 90px;
     font-family: 'Amatic SC', cursive;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 40px;
     width: fit-content;
     margin-left: 42%;
     margin-right: 30%;
     color: #BC7583;
-    border-color: #D5C6B3;
-    border-style: ridge;
-    background-color: #747087;
     display: flex;
     flex-direction: row;
     justify-content: center;
