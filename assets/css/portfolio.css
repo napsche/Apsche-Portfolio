@@ -8,6 +8,7 @@ body {
   .nav {
     font-family: 'Sacramento', cursive;
     font-size: 24px;
+    margin-bottom: 50px;
   }
   .work h3 {
     position: absolute;
@@ -29,6 +30,9 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+  }
+  .work img {
+    opacity: 0.7;
   }
   #contactme {
       color: #D5C6B3;
@@ -57,7 +61,7 @@ body {
   color: #BC7583;
   font-size: 35px;
   font-weight: 20px;
-  }
+}
   #home {
       color: #D5C6B3;
       background-color: #BC7583;
@@ -77,4 +81,13 @@ body {
     flex-direction: row;
     justify-content: center;
     align-self: center;
+  }
+  #main-container {
+    margin-bottom: 20px;
+  }
+  #nav1 {
+    margin-right: 20%;
+  }
+  #nav2 {
+    margin-left: 20%;
   }
