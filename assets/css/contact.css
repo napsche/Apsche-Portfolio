@@ -1,9 +1,30 @@
 body {
     background-image: url(../images/background.jpg);
     
-  }
+}
+img {
+    width: 200px;
+    height: 200px;
+}
 .header {
     margin-top: 20px;
+}
+.links {
+    margin-top: 50px; 
+}
+.nav {
+    font-family: 'Sacramento', cursive;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.nav-link {
+    color: #D5C6B3;
+    background-color: #BC7583;
+    border-style: ridge;
+    border-color: #747087;
+}
+#email {
+    margin-left: 10%;
 }
 #footer {
     position: fixed; 
@@ -15,6 +36,10 @@ body {
     color: white;
     font-weight: 400;
     font-size: 18px;
+}
+#github {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #header {
     text-align: center;
@@ -44,3 +69,11 @@ body {
   #main-container {
     margin-bottom: 20px;
   }
+  #nav1 {
+    margin-right: 10%; 
+}
+#nav3 {
+    margin-left: 10%;
+}
+
+ 

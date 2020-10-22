@@ -5,11 +5,11 @@ body {
 .header {
     margin-top: 20px;
   }
-  .nav {
+.nav {
     font-family: 'Sacramento', cursive;
     font-size: 24px;
     margin-bottom: 50px;
-  }
+}
   .work h3 {
     position: absolute;
     bottom: 20px;
