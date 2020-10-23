@@ -1,6 +1,22 @@
+button {
+    color: white;
+    background-color: #BC7583;
+    border-style: ridge;
+    border-color: #EFDCD6;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
 body {
     background-image: url(../images/background.jpg);
     
+}
+p {
+    background-color: #EFDCD6;
+    color: #BC7583;
+     text-align: center;
+     border-style: ridge;
+     border-color: #BC7583;
 }
 .nav {
     font-family: 'Sacramento', cursive;
@@ -22,6 +38,12 @@ body {
     border-color: #BC7583;
     border-width: 10px;
     float: left;
+}
+.tag {
+    font-family: 'Sacramento', cursive; 
+    font-size: 40px;
+    color: #BC7583;
+    font-weight: 50px;
 }
 #columnB {
     float: right;
