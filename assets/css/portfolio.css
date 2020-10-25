@@ -11,6 +11,9 @@ body {
   margin-bottom: 50px;
   color: #BC7583;
 }
+.nav-link {
+  color: #BC7583;
+}
   .work h3 {
     position: absolute;
     bottom: 20px;

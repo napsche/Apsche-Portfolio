@@ -22,7 +22,7 @@ p {
     font-family: 'Sacramento', cursive;
     font-size: 24px;
     margin-bottom: 50px;
-    
+    margin-top: 20px;
 }
 .nav-link {
     color: #D5C6B3;
@@ -31,13 +31,13 @@ p {
     border-color: #747087;
 }
 .screenshot {
-    width: 500px;
-    height: 500px;
-    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
     margin-right: 20px;
     border-style: ridge;
     border-color: #BC7583;
-    border-width: 10px;
+    border-width: 5px;
     float: left;
 }
 .tag {
@@ -45,9 +45,10 @@ p {
     font-size: 40px;
     color: #BC7583;
     font-weight: 50px;
+    margin-left: 100px;
 }
 #columnB {
-    float: right;
+ margin-left: 100px;
 }
 #logo {
     height: 90px;
