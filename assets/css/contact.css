@@ -13,16 +13,17 @@ img {
     margin-top: 50px; 
 }
 .nav {
-    font-family: 'Sacramento', cursive;
+    margin-top: 20px;
     font-size: 24px;
     margin-bottom: 50px;
+    color: #BC7583;
 }
-.nav-link {
+/* .nav-link {
     color: #D5C6B3;
     background-color: #BC7583;
     border-style: ridge;
     border-color: #747087;
-}
+} */
 #email {
     margin-left: 10%;
 }
@@ -69,11 +70,11 @@ img {
   #main-container {
     margin-bottom: 20px;
   }
-  #nav1 {
+  /* #nav1 {
     margin-right: 10%; 
 }
 #nav3 {
     margin-left: 10%;
-}
+} */
 
  
