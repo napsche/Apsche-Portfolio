@@ -13,7 +13,6 @@ body {
 p {
     background-color: #EFDCD6;
     color: #BC7583;
-     text-align: center;
      border-style: ridge;
      border-color: #BC7583;
 }
@@ -21,6 +20,7 @@ p {
     font-family: 'Sacramento', cursive;
     font-size: 24px;
     margin-bottom: 50px;
+    margin-top: 20px; 
 }
 .nav-link {
     color: #D5C6B3;
@@ -29,14 +29,11 @@ p {
     border-color: #747087;
 }
 .screenshot {
-    width: 500px;
-    height: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 400px;
+    height: 350px;
     border-style: ridge;
     border-color: #BC7583;
     border-width: 10px;
-    float: left;
 }
 .tag {
     font-family: 'Sacramento', cursive; 
@@ -44,9 +41,7 @@ p {
     color: #BC7583;
     font-weight: 50px;
 }
-#columnB {
-    float: right;
-}
+
 #logo {
     height: 90px;
     font-family: 'Amatic SC', cursive;

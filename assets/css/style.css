@@ -128,7 +128,9 @@ p {
     font-size: 35px;
     font-weight: 20px;
   }
-
+  #last {
+    margin-bottom: 20px;
+  }
   #logo {
     height: 90px;
     font-family: 'Amatic SC', cursive;
